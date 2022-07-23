@@ -1,0 +1,92 @@
+.contact_options{
+    background-color: #1f2235;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 10%;
+    padding-bottom: 7rem;
+    padding-top: 5rem;
+}
+ 
+.contact-left{
+    margin-left: 30%;
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
+}
+
+.menu-msg{
+    border: 5px solid #eee;
+    text-align: center;
+    border-radius: 1.2rem;
+}
+
+.menu-msg p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu-msg h6{
+    font-size: 13px;
+}
+
+.menu-msg a{
+    color: red;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+    resize: none;
+    border-radius: 0.5rem;
+    background: transparent;
+    padding:2rem;
+    border: 1px solid red;
+    color: #fff;
+}
+
+.btn-btn{
+    width: 8rem;
+    padding: 10px 10px;
+    border: 2px solid red;
+    border-radius: 10rem;
+    background-color: red;
+    font-weight: 700;
+    color:#eee;
+    transition: all .3s ease;
+}
+
+.btn-btn:hover{
+    border: 2px solid red;
+    background-color: #eee;
+    color:rgb(146, 26, 26);
+}
+
+.image{
+    background-color:#1f2235;
+}
+
+.image img{
+    width: 100%;
+    transform: rotate(180deg);
+}
+
+/*Media Query*/
+
+@media screen and (max-width:750px) {
+    .contact_options{
+        grid-template-columns: 1fr;
+        margin-bottom: 7.5rem;
+    }
+
+    .contact-left{
+        margin:0 15%;
+    }
+    form{
+        margin: 0 5%;
+    }
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Montserrat:wght@100&display=swap');
+
+#resume{
+    min-height: 530px;
+}
+
+.resume_main{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap:10%;
+    margin-left: 3rem;
+}
+
+.menu{
+    font-size:  20px;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    border-right: 1ch solid red;
+    border-radius:20px;
+}
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    padding: 20px 30px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.menu ul li:hover{
+    transform: scale(1.02);
+}
+
+.menu ul li.active{
+    background:linear-gradient(rgb(255, 0, 0),rgb(252, 170, 170));
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.content{
+    margin-top: 3rem;
+}
+
+/* Styles of Content */
+
+.personal table tr{
+    padding: 30px 30px;
+}
+
+.left{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.right{
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding: 12px 8px;
+} 
+
+li{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.skill_set{
+    display: flex;
+    gap: 5%;
+}
+
+.skill_container{
+    text-align: center;
+}
+
+.skill_container img{
+    border-radius: 100%;
+    width: 6rem;
+    transition: .3s ease-in-out;
+}
+
+.skill_container img:hover{
+    transform: scale(1.4);
+}
+
+/* Media Query */
+
+@media screen and (max-width:1024px){
+    .resume_main{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width:750px){
+    .resume_main{
+        grid-template-columns: 1fr;
+    }
+
+    .skill_set{
+        display: flex;
+        gap: 7%;
+    }
+    
+    .skill_container h1{
+       font-size: 20px;
+    }
+    
+    .skill_container img{
+        width: 3.5rem;
+    }
+
+    .personal table tr{
+        padding: 30px 30px;
+    }
+    
+    .left{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+    
+    .right{
+        font-family: 'Edu QLD Beginner', cursive;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        padding: 12px 8px;
+    } 
+}

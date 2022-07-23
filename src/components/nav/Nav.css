@@ -1,0 +1,39 @@
+nav{
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px 30px;
+    position: fixed;
+    border-radius: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 1rem;
+    gap: .5rem;
+    display: flex;
+    z-index: 999;
+}
+
+nav a{
+    padding: 0.9rem;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+    transition: .2s ease-out;
+}
+
+nav a.active{
+    color: red;
+    background-color: rgba(216, 206, 206, 0.1);
+}
+
+@media screen and (max-width:750px){
+    nav{
+        padding: 5px 5px;
+    }
+    nav a{
+        font-size: 25px;
+    }
+}
