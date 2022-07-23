@@ -26,9 +26,9 @@ function Personal() {
                     <td className='right'>Indian</td>
                 </tr>
                 <tr>
-                    <td className='left'>Email Id</td>
+                    <td className='left'>Gmail</td>
                     <td className='left'>:</td>
-                    <td className='right'>naveenprasanth2109@gmail.com</td>
+                    <td className='right'>naveenprasanth2109</td>
                 </tr>
             </table>
         </div>
