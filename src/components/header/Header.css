@@ -188,6 +188,14 @@
 
 @media screen and (max-width:750px)
 {
+    .social_media{
+        position: absolute;
+        right: 2%;
+    }
+
+    .social_media ul li{
+        margin: 0;
+    }
 
     .header_nav{
         padding-bottom: 0rem;
