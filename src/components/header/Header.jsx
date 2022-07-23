@@ -31,15 +31,15 @@ class Header extends Component {
                             loop={Infinity}
                             steps={[
                                 "HTML😀 ",
-                                2000,
+                                1000,
                                 "Css😍 ",
                                 1000,
                                 "JavaScript🤠 ",
-                                2000,
+                                1000,
                                 "React_js😎 ",
-                                2000,
+                                1000,
                                 "Material UI💀 ",
-                                2000,
+                                1000,
                             ]}
                         />
                     </div>
