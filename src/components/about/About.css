@@ -75,7 +75,7 @@
 
 @media screen and (max-width:750px){
     .photo_container{
-        margin-left: 4rem;
+        margin-left: 2rem;
         border-radius: 2rem;
         display: grid;
         place-items: center;
