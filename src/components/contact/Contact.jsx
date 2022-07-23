@@ -57,7 +57,7 @@ function Contact() {
                     <a href='https://m.me/profile.php?id=100009413210205' target='_blank' rel="noreferrer">Send a message</a>
                 </article>
                 <article className='menu-msg'>
-                    <p><AiOutlineWhatsApp/>Message</p>
+                    <p><AiOutlineWhatsApp/>Whatsapp</p>
                     <h6>9025346687</h6>
                     <a href='https://api.whatsapp.com/send?phone=+919025346687' target='_blank' rel="noreferrer">Send a message</a>
                 </article>
