@@ -80,7 +80,7 @@ input, textarea{
 @media screen and (max-width:750px) {
     .contact_options{
         grid-template-columns: 1fr;
-        margin-bottom: 7.5rem;
+        margin-bottom: 5.5rem;
     }
 
     .contact-left{
