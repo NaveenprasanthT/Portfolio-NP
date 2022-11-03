@@ -14,7 +14,14 @@ import { Pagination } from "swiper";
 
 import {AiOutlineLeft} from 'react-icons/ai'
 
-const data = [{
+const data = [
+        {
+        web: "Share(Socail Media)",
+        photo: ,
+        github: "https://github.com/NaveenprasanthT/Share",
+        demo:"https://share-np.vercel.app/",
+        },
+        {
         web: "Expense Tracker(Reactjs)",
         photo: expense,
         github: "https://github.com/NaveenprasanthT/ExpenseTracker",
